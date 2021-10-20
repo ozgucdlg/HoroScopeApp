@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#352250"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="206dp"
+            android:background="#352250"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_sign"
+                android:layout_width="match_parent"
+                android:layout_height="243dp"
+                android:contentDescription="@string/image_sign"
+                app:srcCompat="@drawable/taurus" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/date_range"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/date_range"
+                android:textColor="#DA61E3"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/label1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label1"
+                android:textColor="#9C27B0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/today_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/today_date"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/description"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="@string/description"
+                android:textColor="@color/purple_200" />
+
+            <TextView
+                android:id="@+id/label2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label2"
+                android:textColor="#9C27B0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/compatibility"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/compatibility"
+                android:textColor="@color/purple_200"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/label3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label3"
+                android:textColor="#9C27B0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/mood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mood"
+                android:textColor="@color/purple_200"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/label4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label4"
+                android:textColor="#9C27B0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/color"
+                android:textColor="@color/purple_200"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/label5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label5"
+                android:textColor="#9C27B0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lucky_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lucky_number"
+                android:textColor="@color/purple_200"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/label6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label6"
+                android:textColor="#9C27B0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lucky_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lucky_time"
+                android:textColor="@color/purple_200"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/btn2"
+                app:backgroundTint="#B494E9" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/btn3"
+                app:backgroundTint="#8C9EFF" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

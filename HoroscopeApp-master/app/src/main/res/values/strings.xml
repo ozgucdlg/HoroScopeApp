@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">HoroscopeApp</string>
+    <string name="logo"></string>
+    <string name="image_sign"></string>
+    <string name="btn">Go</string>
+    <string name="btn2">Go Back</string>
+    <string name="btn3">Txt File</string>
+    <string name="date_range"></string>
+    <string name="label1">Horoscope for:</string>
+    <string name="today_date"></string>
+    <string name="label2">Compatibility:</string>
+    <string name="compatibility"></string>
+    <string name="label3">Mood:</string>
+    <string name="mood"></string>
+    <string name="label4">Color:</string>
+    <string name="color"></string>
+    <string name="label5">Lucky number:</string>
+    <string name="lucky_number"></string>
+    <string name="label6">Lucky time:</string>
+    <string name="lucky_time"></string>
+    <string name="list_text">Please select your sign</string>
+    <string name="list_days">Please select the date</string>
+    <string name="welcome_txt">Welcome to your daily horoscope</string>
+    <string name="description"></string>
+    <string-array name="zodiac_signs">
+        <item>---------</item>
+        <item>capricorn</item>
+        <item>aquarius</item>
+        <item>pisces</item>
+        <item>aries</item>
+        <item>taurus</item>
+        <item>gemini</item>
+        <item>cancer</item>
+        <item>leo</item>
+        <item>virgo</item>
+        <item>sagittarius</item>
+        <item>libra</item>
+        <item>scorpio</item>
+    </string-array>
+    <string-array name="array_days">
+        <item>---------</item>
+        <item>Yesterday</item>
+        <item>Today</item>
+        <item>Tomorrow</item>
+    </string-array>
+    <string name="error_horoscope">Sorry, please try again!</string>
+</resources>
